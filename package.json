@@ -5,14 +5,14 @@
   "scripts": {
     "start": "node server.js",
     "lint": "eslint src",
-    "build":"babel src/ztree-for-react.js --out-file lib/ztree-for-react.js",
-    "test":"npm run lint"
+    "build": "babel src/ztree-for-react.js --out-file lib/ztree-for-react.js",
+    "test": "npm run lint"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/arixse/ztree-for-react.git"
   },
-  "main":"lib/ztree-for-react.js",
+  "main": "lib/ztree-for-react.js",
   "keywords": [
     "react",
     "reactjs",
